@@ -99,7 +99,7 @@ int main() {
     imprimirMatriz(matriz, tamano);
 
     int max_secuencia = encontrar_max_secuencia_diagonal_global(matriz, tamano);
-    printf("\nLa secuencia más larga de 1s consecutivos en dirección ↖ (↓↙) es: %d\n", max_secuencia);
+    printf("\nLa secuencia más larga de 1s consecutivos en dirección (↓↙) es: %d\n", max_secuencia);
 
     return 0;
 }
